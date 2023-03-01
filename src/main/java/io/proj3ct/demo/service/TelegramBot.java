@@ -21,7 +21,7 @@ public class TelegramBot extends TelegramLongPollingBot {
     private final String[] compliments = {"You're amazing!", "You have a beautiful smile!", "You're so smart!"};
 
     public void onUpdateReceived(Update update) {
-        // Do nothing in this example
+        //  Do nothing in this example
     }
 
     public void sendRandomCompliment() {
